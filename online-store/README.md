@@ -23,23 +23,25 @@ This project is a fictional multi-page online store web application built with R
 1. Clone the repository:
    ```bash
    git clone https://github.com/AdonisUshe/codingTasks.git
-2). Navigate to the project directory:
+2. Navigate to the project directory:
 cd online-store
-3). Install the dependencies:
+3. Install the dependencies:
 If you are using npm:
 npm init -y
 npm install
 If you are using yarn:
 Yarn install
-Usage
+
+### Usage
 To start the development server:
+
 If you are using npm:
 npm start
 If you are using yarn:
 yarn start
 Open your browser and navigate to ‘http://localhost:3000’ to see the application in action.
 
-Screenshots
+### Screenshots
 Home Page
 
  ![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/fa1a6117-23b6-4ca3-b841-5c5638d4d0c8)
