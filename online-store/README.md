@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Online Store Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This project is a fictional multi-page online store web application built with React and React Router. The application features a navigation menu that allows users to switch between three pages: Home, Products, and About. The Home page includes a login functionality where users can log in by entering their name and log out as needed. This project demonstrates essential React concepts such as state management, event handling, and routing which are crucial for building dynamic web applications. 
 
-## Available Scripts
+## Features
+- **Navigation Menu**: A consistent navigation menu appears on every page, allowing users to navigate between Home, Products, and About pages.
+- **Home Page**:
+  - Contains an input field for users to enter their name.
+  - A 'Login' button that, upon clicking, welcomes the user with a personalized message and changes to a 'Logout' button.
+  - Prevents login if the input field is empty.
+  - Allows users to log out, resetting the input field and button text.
+- **Products Page**: Displays a simple Products page.
+- **About Page**: Displays a simple About page.
 
-In the project directory, you can run:
+## Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AdonisUshe/codingTasks.git
+2). Navigate to the project directory:
+cd online-store
+3). Install the dependencies:
+If you are using npm:
+npm init -y
+npm install
+If you are using yarn:
+Yarn install
+Usage
+To start the development server:
+If you are using npm:
+npm start
+If you are using yarn:
+yarn start
+Open your browser and navigate to ‘http://localhost:3000’ to see the application in action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Screenshots
+Home Page
 
-### `npm test`
+ ![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/fa1a6117-23b6-4ca3-b841-5c5638d4d0c8)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+The website welcomes the user when they log in
+ 
+![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/8b13fadb-1dea-4ca5-ac5e-5a854d14d179)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Products Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/c6e8624d-20d4-494c-99ae-1c96690a9c69)
+ 
 
-### `npm run eject`
+The total price is displayed when the user clicks buy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/e603a3cf-bdf1-4e60-a868-099f403f5129)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+About us page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/AdonisUshe/codingTasks/assets/161855550/fc4cd198-14b8-4a81-b0b0-9f344f10ed2b)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Credits
+Authored by Adonis Ushendibaba
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
